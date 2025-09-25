@@ -133,6 +133,7 @@ docker login -u <username> (docker login -u oportero)
 ```bash
 El token se obtiene en la cuenta de DockerHub
 Docker Hub → Account Settings → Security → New Access Token.
+Token generado: en la imagen se muestra el token generado
 
 ```
 <img width="1180" height="745" alt="image" src="https://github.com/user-attachments/assets/19cefd4c-fdea-4a5b-b177-c6cabe0c3601" />
