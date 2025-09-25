@@ -124,7 +124,7 @@ docker logs -f fastapi (ctrl + c para salir)
 8. **# iniciar sesión en docker**
 
 ```bash
-docker login -u <username> (docker login -u tinchoxd)
+docker login -u <username> (docker login -u oportero)
 ```
 --- 
 
