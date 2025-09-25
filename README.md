@@ -229,8 +229,7 @@ curl http://localhost:8000
 RESP: {"status":"ok","app":"Aplicación: fastapi-multistage"}
 
 ```
-<img width="1235" height="40" alt="16" src="https://github.com/user-attachments/assets/af0d6e0b-3c6d-4b67-8b1f-cc63d55a21e5" />
-
+<img width="1508" height="52" alt="image" src="https://github.com/user-attachments/assets/eea8bf36-4686-4414-ae23-8c0b74151565" />
 
 --- 
 
