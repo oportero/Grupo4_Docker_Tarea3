@@ -158,7 +158,7 @@ docker tag fastapi-multistage:dev oportero/fastapi-multistage:latest
 
 11. **# Subir la Imagen**
 
-<img width="1076" height="234" alt="12" src="https://github.com/user-attachments/assets/5c2fc3c6-cf95-4d08-9e2e-2fe85a190c1c" />
+<img width="1419" height="205" alt="image" src="https://github.com/user-attachments/assets/09b0bbd9-69e2-47e4-abd8-93c800f2dbc4" />
 
 --- 
 
