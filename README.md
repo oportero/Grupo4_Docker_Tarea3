@@ -60,7 +60,7 @@ sudo apt update && sudo apt dist-upgrade –y
 2. **#clonar repositorio**
 
 ```bash
-git clone https://github.com/TinchoXD/Grupo4_Docker_Tarea3.git
+git clone https://github.com/oportero/Grupo4_Docker_Tarea3.git
 ```
 <img width="798" height="171" alt="01" src="https://github.com/user-attachments/assets/b3f5cfa3-6a3d-4cb6-815f-8597f1010170" />
 
