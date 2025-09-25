@@ -201,7 +201,7 @@ docker tag fastapi-multistage:dev oportero/fastapi-multistage:latest
 
 
       # Ejecutar análisis
-      docker scout cves tinchoxd/fastapi-multistage:latest
+      docker scout cves oportero/fastapi-multistage:latest
       
           ✓ SBOM of image already cached, 143 packages indexed
           ✗ Detected 11 vulnerable packages with a total of 23 vulnerabilities
