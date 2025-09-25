@@ -139,18 +139,20 @@ Token generado: en la imagen se muestra el token generado
 <img width="1180" height="745" alt="image" src="https://github.com/user-attachments/assets/19cefd4c-fdea-4a5b-b177-c6cabe0c3601" />
 
 
-<img width="1002" height="166" alt="10" src="https://github.com/user-attachments/assets/faabc062-af62-409e-8e54-dc1413e77391" />
+<img width="1202" height="118" alt="image" src="https://github.com/user-attachments/assets/5b484987-4003-4f8f-a8ab-75717f02b63c" />
+
 
 --- 
 
 10. **# Etiquetar la imagen**
 
 ```bash
-docker tag fastapi-multistage:dev <tu_usuario_dockerhub>/fastapi-multistage:latest
+docker tag fastapi-multistage:dev oportero/fastapi-multistage:latest
 
 ```
 
-<img width="707" height="32" alt="11" src="https://github.com/user-attachments/assets/0ac73e08-f97b-485a-980d-0006472ce61b" />
+<img width="693" height="30" alt="image" src="https://github.com/user-attachments/assets/05e643ca-0e7c-4e16-8660-e50987fb3aa6" />
+
 
 --- 
 
