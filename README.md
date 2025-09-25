@@ -203,189 +203,24 @@ docker tag fastapi-multistage:dev oportero/fastapi-multistage:latest
       # Ejecutar análisis
       docker scout cves oportero/fastapi-multistage:latest
       
-          ✓ SBOM of image already cached, 143 packages indexed
-          ✗ Detected 11 vulnerable packages with a total of 23 vulnerabilities
-      
-      
-      ## Overview
-      <img width="675" height="180" alt="15_02" src="https://github.com/user-attachments/assets/5840e069-788b-44aa-b5e7-1f905f050ac8" />
+<img width="1460" height="323" alt="image" src="https://github.com/user-attachments/assets/de4b6fd7-d5cf-4b57-8271-c16f6f107fb3" />
+
 
       
       ## Packages and Vulnerabilities
       
-         0C     1H     1M     0L  starlette 0.38.6
-      pkg:pypi/starlette@0.38.6
-      
-          ✗ HIGH CVE-2024-47874 [Allocation of Resources Without Limits or Throttling]
-            https://scout.docker.com/v/CVE-2024-47874
-            Affected range : <0.40.0                                                          
-            Fixed version  : 0.40.0                                                           
-            CVSS Score     : 8.7                                                              
-            CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N  
-          
-          ✗ MEDIUM CVE-2025-54121 [Allocation of Resources Without Limits or Throttling]
-            https://scout.docker.com/v/CVE-2025-54121
-            Affected range : <0.47.2                                       
-            Fixed version  : 0.47.2                                        
-            CVSS Score     : 5.3                                           
-            CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L  
-          
-      
-         0C     0H     1M     1L  tar 1.35+dfsg-3.1
-      pkg:deb/debian/tar@1.35%2Bdfsg-3.1?os_distro=trixie&os_name=debian&os_version=13
-      
-          ✗ MEDIUM CVE-2025-45582
-            https://scout.docker.com/v/CVE-2025-45582
-            Affected range : >=1.35+dfsg-3.1  
-            Fixed version  : not fixed        
-          
-          ✗ LOW CVE-2005-2541
-            https://scout.docker.com/v/CVE-2005-2541
-            Affected range : >=1.35+dfsg-3.1  
-            Fixed version  : not fixed        
-          
-      
-         0C     0H     0M     7L  glibc 2.41-12
-      pkg:deb/debian/glibc@2.41-12?os_distro=trixie&os_name=debian&os_version=13
-      
-          ✗ LOW CVE-2019-9192
-            https://scout.docker.com/v/CVE-2019-9192
-            Affected range : >=2.41-12  
-            Fixed version  : not fixed  
-          
-          ✗ LOW CVE-2019-1010025
-            https://scout.docker.com/v/CVE-2019-1010025
-            Affected range : >=2.41-12  
-            Fixed version  : not fixed  
-          
-          ✗ LOW CVE-2019-1010024
-            https://scout.docker.com/v/CVE-2019-1010024
-            Affected range : >=2.41-12  
-            Fixed version  : not fixed  
-          
-          ✗ LOW CVE-2019-1010023
-            https://scout.docker.com/v/CVE-2019-1010023
-            Affected range : >=2.41-12  
-            Fixed version  : not fixed  
-          
-          ✗ LOW CVE-2019-1010022
-            https://scout.docker.com/v/CVE-2019-1010022
-            Affected range : >=2.41-12  
-            Fixed version  : not fixed  
-          
-          ✗ LOW CVE-2018-20796
-            https://scout.docker.com/v/CVE-2018-20796
-            Affected range : >=2.41-12  
-            Fixed version  : not fixed  
-          
-          ✗ LOW CVE-2010-4756
-            https://scout.docker.com/v/CVE-2010-4756
-            Affected range : >=2.41-12  
-            Fixed version  : not fixed  
-          
-      
-         0C     0H     0M     4L  systemd 257.8-1~deb13u1
-      pkg:deb/debian/systemd@257.8-1~deb13u1?os_distro=trixie&os_name=debian&os_version=13
-      
-          ✗ LOW CVE-2023-31439
-            https://scout.docker.com/v/CVE-2023-31439
-            Affected range : >=257.8-1~deb13u1  
-            Fixed version  : not fixed          
-          
-          ✗ LOW CVE-2023-31438
-            https://scout.docker.com/v/CVE-2023-31438
-            Affected range : >=257.8-1~deb13u1  
-            Fixed version  : not fixed          
-          
-          ✗ LOW CVE-2023-31437
-            https://scout.docker.com/v/CVE-2023-31437
-            Affected range : >=257.8-1~deb13u1  
-            Fixed version  : not fixed          
-          
-          ✗ LOW CVE-2013-4392
-            https://scout.docker.com/v/CVE-2013-4392
-            Affected range : >=257.8-1~deb13u1  
-            Fixed version  : not fixed          
-          
-      
-         0C     0H     0M     2L  coreutils 9.7-3
-      pkg:deb/debian/coreutils@9.7-3?os_distro=trixie&os_name=debian&os_version=13
-      
-          ✗ LOW CVE-2025-5278
-            https://scout.docker.com/v/CVE-2025-5278
-            Affected range : >=9.7-3    
-            Fixed version  : not fixed  
-          
-          ✗ LOW CVE-2017-18018
-            https://scout.docker.com/v/CVE-2017-18018
-            Affected range : >=9.7-3    
-            Fixed version  : not fixed  
-          
-      
-         0C     0H     0M     1L  perl 5.40.1-6
-      pkg:deb/debian/perl@5.40.1-6?os_distro=trixie&os_name=debian&os_version=13
-      
-          ✗ LOW CVE-2011-4116
-            https://scout.docker.com/v/CVE-2011-4116
-            Affected range : >=5.40.1-6  
-            Fixed version  : not fixed   
-          
-      
-         0C     0H     0M     1L  openssl 3.5.1-1
-      pkg:deb/debian/openssl@3.5.1-1?os_distro=trixie&os_name=debian&os_version=13
-      
-          ✗ LOW CVE-2010-0928
-            https://scout.docker.com/v/CVE-2010-0928
-            Affected range : >=3.2.1-3  
-            Fixed version  : not fixed  
-          
-      
-         0C     0H     0M     1L  shadow 1:4.17.4-2
-      pkg:deb/debian/shadow@1%3A4.17.4-2?os_distro=trixie&os_name=debian&os_version=13
-      
-          ✗ LOW CVE-2007-5686
-            https://scout.docker.com/v/CVE-2007-5686
-            Affected range : >=1:4.17.4-2  
-            Fixed version  : not fixed     
-          
-      
-         0C     0H     0M     1L  apt 3.0.3
-      pkg:deb/debian/apt@3.0.3?os_distro=trixie&os_name=debian&os_version=13
-      
-          ✗ LOW CVE-2011-3374
-            https://scout.docker.com/v/CVE-2011-3374
-            Affected range : >=3.0.3    
-            Fixed version  : not fixed  
-          
-      
-         0C     0H     0M     1L  sqlite3 3.46.1-7
-      pkg:deb/debian/sqlite3@3.46.1-7?os_distro=trixie&os_name=debian&os_version=13
-      
-          ✗ LOW CVE-2021-45346
-            https://scout.docker.com/v/CVE-2021-45346
-            Affected range : >=3.46.1-7  
-            Fixed version  : not fixed   
-          
-      
-         0C     0H     0M     1L  util-linux 2.41-5
-      pkg:deb/debian/util-linux@2.41-5?os_distro=trixie&os_name=debian&os_version=13
-      
-          ✗ LOW CVE-2022-0563
-            https://scout.docker.com/v/CVE-2022-0563
-            Affected range : >=2.41-5   
-            Fixed version  : not fixed  
-          
-      
-      
-      23 vulnerabilities found in 11 packages
-        CRITICAL  0   
-        HIGH      1   
-        MEDIUM    2   
-        LOW       20  
-      
-      
-      What's next:
-          View base image update recommendations → docker scout recommendations tinchoxd/fastapi-multistage:latest
+<img width="1460" height="323" alt="image" src="https://github.com/user-attachments/assets/c6aae08b-3a03-47f4-b372-204589650bcc" />
+<img width="1460" height="323" alt="image" src="https://github.com/user-attachments/assets/d10d17f0-f325-490e-a7a1-df421705ce98" />
+<img width="846" height="756" alt="image" src="https://github.com/user-attachments/assets/457fa58f-9313-4362-830b-8139b5a7eeb6" />
+<img width="936" height="742" alt="image" src="https://github.com/user-attachments/assets/678cf0af-74a2-42ee-a39d-3f2293c581dc" />
+<img width="845" height="699" alt="image" src="https://github.com/user-attachments/assets/0a5706c5-5e01-476c-b838-65688ddbb8f7" />
+<img width="1119" height="581" alt="image" src="https://github.com/user-attachments/assets/99950263-229a-43df-b7d8-aa36a120d88f" />
+
+      ## docker scout recommendations oportero/fastapi-multistage:latest
+
+<img width="1546" height="548" alt="image" src="https://github.com/user-attachments/assets/4cd9d2b7-3ce6-41ad-9cbe-bdc07506ca9b" />
+<img width="1338" height="807" alt="image" src="https://github.com/user-attachments/assets/d18f8527-4071-4486-97bd-0aa5043e3a48" />
+
 
 14. **Verificar el funcionanmineto del Contenedor**
 
